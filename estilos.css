@@ -1,0 +1,35 @@
+body{
+    background-image: url(/img/fondo.png);
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    
+}
+header h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+div{
+    margin: auto;
+}
+.form-register{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    
+}
+.controls{
+    width: 90%;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+img{
+    width: 79%;
+    background-position: right;
+}
