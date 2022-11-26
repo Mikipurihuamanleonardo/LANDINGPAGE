@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/fondo.png);
+    background-image: url(img/fondo.png);
     background-position: center;
     margin: auto;
     background-repeat: no-repeat;
@@ -8,8 +8,9 @@ body{
 header h1{
     text-align: center;
 }
-p{
+h3{
     text-align: center;
+    color: brown;
 }
 div{
     margin: auto;
@@ -18,18 +19,42 @@ div{
     width: 400px;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 90px;
     border-radius: 4px;
     font-family: 'calibri';
     
 }
 .controls{
-    width: 90%;
-    padding: 6px;
+    width: 75%;
+    padding: 5px;
     border-radius: 4px;
     margin-bottom: 5px;
 }
-img{
-    width: 79%;
-    background-position: right;
+.imgbanner{
+    float: right;/*flote a la derecha*/
+    /*border-radius: 50%;*/
+    border:#c82033 2px solid;
+    width: 40%;
+    max-height: 400px;
+    max-width: 400px;
+    
+}
+header{
+    background-color: bisque;
+    width: 60%;
+    height: 45%;
+    margin: auto;
+    text-align: center;
+}
+section{
+    margin: 1.5em;
+    padding: 1.5em;
+    overflow: hidden;
+    max-width: 690px;
+
+}
+.bottom{
+    width: 75%;
+    padding: 5px;
+    
 }
