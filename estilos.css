@@ -34,7 +34,7 @@ div{
     float: right;/*flote a la derecha*/
     /*border-radius: 50%;*/
     border:#c82033 2px solid;
-    width: 40%;
+    width: 100%;
     max-height: 400px;
     max-width: 400px;
     
@@ -56,5 +56,11 @@ section{
 .bottom{
     width: 75%;
     padding: 5px;
+    
+}
+.cuerpo{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
     
 }
